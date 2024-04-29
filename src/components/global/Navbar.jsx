@@ -27,7 +27,7 @@ function Navbar() {
         backgroundColor: isNavbarTop ? "white" : "transparent",
         color: isNavbarTop ? "black" : "black",
       }}
-      className="h-24 w-full flex justify-between items-center"
+      className="h-24 z-50 w-full flex justify-between items-center"
     >
       <div
         onClick={() => {
@@ -40,44 +40,46 @@ function Navbar() {
         <img src="/sipallogo.jpeg" alt="" className="rounded-full w-14 h-14" />
         <p className="text-2xl">Sipal</p>
       </div>
-      <ul className="flex gap-3 justify-between">
-        <li>
-          <a
-            className={`${
-              isNavbarTop ? "text-black" : "text-white"
-            } p-8 text-lg hover:font-bold`}
-            onClick={() => {
-              navigate("/about");
-            }}
-          >
-            About Palembang
-          </a>
-        </li>
-        <li>
-          <a
-            className={`${
-              isNavbarTop ? "text-black" : "text-white"
-            } p-8 text-lg hover:font-bold`}
-            onClick={() => {
-              navigate("/tips");
-            }}
-          >
-            Practical Tips
-          </a>
-        </li>
-        <li>
-          <a
-            className={`${
-              isNavbarTop ? "text-black" : "text-white"
-            } p-8 text-lg hover:font-bold`}
-            onClick={() => {
-              navigate("/destination");
-            }}
-          >
-            Places To Go
-          </a>
-        </li>
-      </ul>
+      <div className="flex-1">
+        <ul className="flex justify-center">
+          <li>
+            <a
+              className={`${
+                isNavbarTop ? "text-black" : "text-white"
+              } p-8 text-base hover:font-bold cursor-pointer`}
+              onClick={() => {
+                navigate("/about");
+              }}
+            >
+              About Palembang
+            </a>
+          </li>
+          <li>
+            <a
+              className={`${
+                isNavbarTop ? "text-black" : "text-white"
+              } p-8 text-base hover:font-bold cursor-pointer`}
+              onClick={() => {
+                navigate("/tips");
+              }}
+            >
+              Practical Tips
+            </a>
+          </li>
+          <li>
+            <a
+              className={`${
+                isNavbarTop ? "text-black" : "text-white"
+              } p-8 text-base hover:font-bold cursor-pointer`}
+              onClick={() => {
+                navigate("/destination");
+              }}
+            >
+              Places To Go
+            </a>
+          </li>
+        </ul>
+      </div>
       <div className="p-8"></div>
     </nav>
   );
