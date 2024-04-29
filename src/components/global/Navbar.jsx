@@ -78,7 +78,7 @@ function Navbar() {
           </a>
         </li>
       </ul>
-      <div></div>
+      <div className="p-8"></div>
     </nav>
   );
 }

@@ -2,7 +2,7 @@ import React from "react";
 
 function Information() {
   return (
-    <div className="mt-10 flex flex-col w-full">
+    <div className="my-10 flex flex-col w-full">
       <div className="w-full flex justify-end">
         <div className="w-2/3">
           <img
