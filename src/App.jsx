@@ -4,11 +4,13 @@ import Home from "@/pages/Home";
 import Tips from "@/pages/Tips";
 import Destination from "@/pages/Destination";
 import About from "@/pages/About";
+import Navbar from "./components/global/Navbar";
 
 function App() {
   return (
     <>
       <BrowserRouter>
+        <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/tips" element={<Tips />} />
