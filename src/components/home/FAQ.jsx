@@ -20,7 +20,7 @@ function FAQ() {
           <Accordion type="single" collapsible className="w-full">
             <AccordionItem value="item-1">
               <AccordionTrigger>
-                <h1 className="text-2xl mt-10">
+                <h1 className="text-2xl text-left mt-10">
                   What is the capital of Indonesia?
                 </h1>
               </AccordionTrigger>
@@ -37,7 +37,7 @@ function FAQ() {
             </AccordionItem>
             <AccordionItem value="item-2">
               <AccordionTrigger>
-                <h1 className="text-2xl  mt-10">
+                <h1 className="text-2xl text-left mt-10">
                   What is the population of Indonesia?
                 </h1>
               </AccordionTrigger>
@@ -54,7 +54,7 @@ function FAQ() {
             </AccordionItem>
             <AccordionItem value="item-3">
               <AccordionTrigger>
-                <h1 className="text-2xl  mt-10">
+                <h1 className="text-2xl text-left mt-10">
                   What is the currency of Indonesia?
                 </h1>
               </AccordionTrigger>
