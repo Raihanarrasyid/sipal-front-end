@@ -11,11 +11,11 @@ function Information() {
               fontFamily: "Avenir",
             }}
           >
-            <h1 className="text-2xl font-bold">
+            <h1 data-aos="fade" className="text-2xl font-bold">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit,
               ipsa.
             </h1>
-            <p>
+            <p data-aos="fade">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
               perferendis reiciendis hic facere necessitatibus soluta facilis
               quod consequuntur laborum nesciunt quia nisi aliquid possimus
@@ -47,11 +47,11 @@ function Information() {
                 fontFamily: "Avenir",
               }}
             >
-              <h1 className="text-2xl font-bold">
+              <h1 data-aos="fade" className="text-2xl font-bold">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit,
                 ipsa.
               </h1>
-              <p>
+              <p data-aos="fade">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Provident perferendis reiciendis hic facere necessitatibus
                 soluta facilis quod consequuntur laborum nesciunt quia nisi

@@ -37,7 +37,7 @@ function Navbar() {
           isNavbarTop ? "text-black" : "text-white"
         } flex justify-center items-center gap-5 ml-5 cursor-pointer`}
       >
-        <img src="/sipallogo.jpeg" alt="" className="rounded-full w-14 h-14" />
+        <img src="/sipallogo.jpeg" alt="" className="rounded-full w-10 h-10" />
         <p className="text-2xl">Sipal</p>
       </div>
       <div className="flex-1">

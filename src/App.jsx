@@ -5,8 +5,17 @@ import Tips from "@/pages/Tips";
 import Destination from "@/pages/Destination";
 import About from "@/pages/About";
 import Navbar from "./components/global/Navbar";
+import "aos/dist/aos.css";
+import AOS from "aos";
+import { useEffect } from "react";
 
 function App() {
+  useEffect(() => {
+    AOS.refresh();
+    AOS.init({
+      duration: 1000,
+    });
+  }, []);
   return (
     <>
       <BrowserRouter>
