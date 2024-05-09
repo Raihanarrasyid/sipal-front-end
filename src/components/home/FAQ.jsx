@@ -71,7 +71,7 @@ function FAQ() {
             </AccordionItem>
             <AccordionItem value="item-4">
               <AccordionTrigger>
-                <h1 className="text-2xl  mt-10">
+                <h1 className="text-2xl  text-left mt-10">
                   What is the official language of Indonesia?
                 </h1>
               </AccordionTrigger>
