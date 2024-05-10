@@ -12,7 +12,8 @@ function Footer() {
       try {
         const response = await axios.get(
           `http://dataservice.accuweather.com/currentconditions/v1/211288?apikey=${
-            import.meta.env.VITE_AccuweatherApiKey
+            import.meta.env.VITE_AccuweatherApiKey ||
+            process.env.AccuweatherApiKey
           }`
         );
         setWeather(response.data[0]);
