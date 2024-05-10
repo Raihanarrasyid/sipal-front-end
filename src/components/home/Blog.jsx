@@ -46,8 +46,8 @@ function Blog() {
         <div className="my-20" data-aos="fade">
           <Carousel>
             <CarouselContent>
-              {blog.map((item) => (
-                <CarouselItem key={item.title} className="basis-1/3">
+              {blog.map((item, index) => (
+                <CarouselItem key={index + 1} className="basis-1/3">
                   <div className="flex flex-col items-center">
                     <img
                       src={item.image}

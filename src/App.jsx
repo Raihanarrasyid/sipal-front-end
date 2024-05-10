@@ -8,6 +8,7 @@ import Navbar from "./components/global/Navbar";
 import "aos/dist/aos.css";
 import AOS from "aos";
 import { useEffect } from "react";
+import Footer from "./components/global/Footer";
 
 function App() {
   useEffect(() => {
@@ -26,6 +27,7 @@ function App() {
           <Route path="/destination" element={<Destination />} />
           <Route path="/about" element={<About />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </>
   );

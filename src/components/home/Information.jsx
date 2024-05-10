@@ -4,7 +4,7 @@ function Information() {
   return (
     <div className="my-10 flex flex-col w-full">
       <div className="w-full flex items-center justify-end">
-        <div className="rounded-lg h-96 w-[30rem] mr-[-300px] z-10 bg-slate-300">
+        <div className="rounded-lg h-96 w-[30rem] mr-[-300px] z-10 bg-slate-300 shadow-lg">
           <div
             className="py-20 px-10 flex flex-col gap-3"
             style={{
@@ -40,7 +40,7 @@ function Information() {
               alt="masjid"
             />
           </div>
-          <div className="rounded-lg h-96 w-[30rem] ml-[-300px] z-10 bg-slate-300">
+          <div className="rounded-lg h-96 w-[30rem] ml-[-300px] z-10 bg-slate-300 shadow-lg">
             <div
               className="py-20 px-10 flex flex-col gap-3"
               style={{
