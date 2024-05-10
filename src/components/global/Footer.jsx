@@ -11,7 +11,7 @@ function Footer() {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          `http://dataservice.accuweather.com/currentconditions/v1/211288?apikey=${
+          `https://dataservice.accuweather.com/currentconditions/v1/211288?apikey=${
             import.meta.env.VITE_AccuweatherApiKey ||
             process.env.AccuweatherApiKey
           }`
