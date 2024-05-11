@@ -1,6 +1,16 @@
 import React, { useState } from "react";
 import Slider from "react-slick";
 
+const images = [
+  "/ampera.jpg",
+  "/bkb.png",
+  "/ki.jpg",
+  "/amanzi.jpg",
+  "/amanzi.png",
+  "/kemaro.jpg",
+  "/kemaro2.jpg",
+];
+
 function Part() {
   var settings = {
     dots: true,
@@ -16,30 +26,11 @@ function Part() {
   return (
     <div className="w-[90%] mx-auto">
       <Slider {...settings}>
-        <div>
-          <img
-            src="/ampera.jpg"
-            alt=""
-            className="w-full h-[35rem] object-cover"
-          />
-        </div>
-        <div>
-          <img
-            src="/bkb.png"
-            alt=""
-            className="w-full h-[35rem] object-cover"
-          />
-        </div>
-        <div>
-          <img src="/ki.jpg" alt="" className="w-full h-[35rem] object-cover" />
-        </div>
-        <div>
-          <img
-            src="/amanzi.jpg"
-            alt=""
-            className="w-full h-[35rem] object-cover"
-          />
-        </div>
+        {images.map((image, index) => (
+          <div key={index + 1}>
+            <img src={image} alt="" className="w-full h-[35rem] object-cover" />
+          </div>
+        ))}
       </Slider>
     </div>
   );

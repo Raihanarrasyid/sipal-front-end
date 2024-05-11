@@ -10,21 +10,33 @@ import {
 const blog = [
   {
     image: "/bkb.png",
-    title: "The best places to visit in Palembang",
+    title: "The Oldest Fort in Palembang",
     summary:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Nulla nec purus feugiat, molestie ipsum et, consequat nibh.",
+      "Benteng Kuto Besak is a historical fort in Palembang, South Sumatra, Indonesia. It was built in 1780 by the Dutch East India Company (VOC) during the colonial period. The fort is located on the banks of the Musi River and is one of the oldest buildings in Palembang. It is a popular tourist attraction and is a must-visit for history buffs and architecture enthusiasts.",
   },
   {
     image: "/ki.jpg",
-    title: "The best places to visit in Palembang",
+    title: "Kambang Iwak Park",
     summary:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Nulla nec purus feugiat, molestie ipsum et, consequat nibh.",
+      "Kambang Iwak Park is a popular tourist destination in Palembang, South Sumatra, Indonesia. The park is located on the banks of the Musi River and is a great place to relax and enjoy the natural beauty of the area. The park is home to a variety of plants and animals, and is a popular spot for picnics and family outings. Visitors can also enjoy boat rides on the river and take in the stunning views of the city skyline.",
   },
   {
     image: "/amanzi.png",
-    title: "The best places to visit in Palembang",
+    title: "Amanzi Waterpark",
     summary:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Nulla nec purus feugiat, molestie ipsum et, consequat nibh.",
+      "Amanzi Waterpark is a popular water park in Palembang, South Sumatra, Indonesia. The park is located on the banks of the Musi River and is a great place to cool off and have fun on a hot day. The park features a variety of water slides, pools, and other attractions for visitors of all ages. It is a popular spot for families and groups of friends looking to have a fun day out in the sun.",
+  },
+  {
+    image: "/kemaro.jpg",
+    title: "Kemaro Island",
+    summary:
+      "Kemaro Island is a small island in the Musi River in Palembang, South Sumatra, Indonesia. The island is home to a Chinese temple and a pagoda, as well as a park and a zoo. It is a popular tourist destination and is a great place to relax and enjoy the natural beauty of the area. Visitors can take a boat ride to the island and explore the various attractions on offer.",
+  },
+  {
+    image: "/monpera.jpg",
+    title: "Monpera",
+    summary:
+      "Monpera is a historical building in Palembang, South Sumatra, Indonesia. The building was built in 1962 and is a popular tourist attraction in the city. It is home to a museum that showcases the history and culture of Palembang, as well as a theater and an art gallery. The building is located in the city center and is a must-visit for history buffs and architecture enthusiasts.",
   },
 ];
 

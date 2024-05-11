@@ -25,19 +25,27 @@ const travels = [
     image: "/amanzi.png",
     title: "Amanzi Waterpark",
   },
+  {
+    image: "/kemaro.jpg",
+    title: "Kemaro Island",
+  },
+  {
+    image: "/monpera.jpg",
+    title: "Monpera",
+  },
 ];
 
 function Travel({ title }) {
   return (
     <div className="w-4/5 mx-auto my-32 flex flex-col">
       <div className="flex justify-between">
-        <div data-aos="fade-right">
+        <div>
           <h1 className="font-bold text-3xl">
             {title ? title : "Explore Palembang"}
           </h1>
         </div>
 
-        <div data-aos="fade-left" className="max-w-[40rem]">
+        <div className="max-w-[40rem]">
           <p
             style={{
               fontFamily: "Avenir",
@@ -50,7 +58,7 @@ function Travel({ title }) {
         </div>
       </div>
 
-      <div data-aos="fade" className="relative my-32">
+      <div className="relative my-32">
         <Carousel>
           <CarouselContent>
             {travels.map((travel, index) => (

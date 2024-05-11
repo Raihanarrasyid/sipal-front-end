@@ -11,15 +11,15 @@ function Information() {
               fontFamily: "Avenir",
             }}
           >
-            <h1 data-aos="fade" className="text-2xl font-bold">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit,
-              ipsa.
+            <h1 data-aos="fade" className="text-3xl font-bold">
+              Everyone is Welcome Here at Palembang
             </h1>
             <p data-aos="fade">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
-              perferendis reiciendis hic facere necessitatibus soluta facilis
-              quod consequuntur laborum nesciunt quia nisi aliquid possimus
-              quidem alias aspernatur, totam ipsa illo?
+              The Palembang city is a city that is open to everyone. We welcome
+              all visitors with open arms and hope that you will enjoy your stay
+              in our beautiful city. Whether you are here for business or
+              pleasure, we are here to make your stay as comfortable and
+              enjoyable as possible.
             </p>
           </div>
         </div>
@@ -47,15 +47,15 @@ function Information() {
                 fontFamily: "Avenir",
               }}
             >
-              <h1 data-aos="fade" className="text-2xl font-bold">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit,
-                ipsa.
+              <h1 data-aos="fade" className="text-3xl font-bold">
+                The City with Rich History and Culture
               </h1>
               <p data-aos="fade">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Provident perferendis reiciendis hic facere necessitatibus
-                soluta facilis quod consequuntur laborum nesciunt quia nisi
-                aliquid possimus quidem alias aspernatur, totam ipsa illo?
+                Palembang is a city with a rich history and culture. The city
+                was once the center of the Sriwijaya Kingdom, which was the
+                largest Buddhist kingdom in Southeast Asia. The city is also
+                home to many historical sites and landmarks that are worth
+                visiting.
               </p>
             </div>
           </div>
