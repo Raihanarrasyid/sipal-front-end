@@ -26,7 +26,7 @@ function Information() {
         <div className="w-2/3">
           <img
             className=" w-full h-[720px] object-cover"
-            src="/ampera.jpg"
+            src="/masjid.jpg"
             alt="ampera"
           />
         </div>
@@ -36,7 +36,7 @@ function Information() {
           <div className="w-2/3">
             <img
               className=" w-full h-[720px] object-cover"
-              src="/masjid.jpg"
+              src="/ampera.jpg"
               alt="masjid"
             />
           </div>

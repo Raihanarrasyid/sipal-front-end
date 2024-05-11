@@ -21,8 +21,8 @@ function Footer() {
         console.error("Error fetching temperature:", error);
       }
     };
-
     fetchData();
+    const intervalId = setInterval(fetchData, 60000);
   }, []);
   return (
     <div>
@@ -92,13 +92,14 @@ function Footer() {
           }}
           className="my-10 flex justify-between"
         >
-          <div>© 2024 Sipal. All rights reserved.</div>
-          <div className="flex gap-5">
+          <div className="flex-1">© 2024 Sipal. All rights reserved.</div>
+          <div className="flex-1 flex gap-5">
             <p>Term of Use</p>
             <p>Privacy Policy</p>
             <p>Accessibility</p>
             <p>Cookies</p>
           </div>
+          <div className="flex flex-1"></div>
           <div></div>
         </div>
       </div>

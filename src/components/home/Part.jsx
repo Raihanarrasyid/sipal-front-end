@@ -8,7 +8,9 @@ function Part() {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 2000,
+    autoplay: true,
+    cssEase: "linear",
   };
 
   return (
