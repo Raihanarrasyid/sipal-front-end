@@ -37,7 +37,7 @@ const travels = [
 
 function Travel({ title }) {
   return (
-    <div className="w-4/5 mx-auto my-32 flex flex-col">
+    <div className="w-4/5 mx-auto mt-32 flex flex-col">
       <div className="flex justify-between">
         <div>
           <h1 className="font-bold text-3xl">
