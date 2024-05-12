@@ -13,7 +13,7 @@ function UsefulTips() {
           style={{ fontFamily: "Avenir" }}
           className="w-[50rem] flex flex-col justify-between items-center gap-10"
         >
-          <div className="flex flex-col gap-3">
+          <div data-aos="fade-left" className="flex flex-col gap-3">
             <h1 className="text-2xl font-bold">
               How can i get to the Palembang
             </h1>
@@ -24,7 +24,7 @@ function UsefulTips() {
               take a ferry from Jakarta or drive from other cities in Sumatra.
             </p>
           </div>
-          <div className="flex flex-col gap-3">
+          <div data-aos="fade-left" className="flex flex-col gap-3">
             <h1 className="text-2xl font-bold">Where should i stay?</h1>
             <p>
               Palembang has a range of accommodation options to suit all
@@ -33,7 +33,7 @@ function UsefulTips() {
               include the city center, Jakabaring, and the Ampera Bridge area.
             </p>
           </div>
-          <div className="flex flex-col gap-3">
+          <div data-aos="fade-left" className="flex flex-col gap-3">
             <h1 className="text-2xl font-bold">
               What is the best time to visit Palembang?
             </h1>
