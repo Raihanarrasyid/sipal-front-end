@@ -1,7 +1,7 @@
-import React from "react";
+import React, { Component } from "react";
 
-function Tips() {
-  return <div>Tips</div>;
+export default class Tips extends Component {
+  render() {
+    return <div>Tips</div>;
+  }
 }
-
-export default Tips;

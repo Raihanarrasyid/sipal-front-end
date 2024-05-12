@@ -6,6 +6,34 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 
+const QuestionAnswer = [
+  {
+    question: "What is Palembang famous for?",
+    answer:
+      "Palembang is famous for its Ampera Bridge, which is a landmark of the city. The city is also known for its culinary delights, such as pempek, es kacang merah, and tekwan.",
+  },
+  {
+    question: "What are the best places to visit in Palembang?",
+    answer:
+      "Some of the best places to visit in Palembang are the Ampera Bridge, Kemaro Island, and the Musi River.",
+  },
+  {
+    question: "What is the best time to visit Palembang?",
+    answer:
+      "The best time to visit Palembang is during the dry season, which is from May to September. During this time, the weather is pleasant, and you can explore the city without any hindrances.",
+  },
+  {
+    question: "What are the must-try dishes in Palembang?",
+    answer:
+      "Some of the must-try dishes in Palembang are pempek, es kacang merah, tekwan, and mie celor.",
+  },
+  {
+    question: "What are the best activities to do in Palembang?",
+    answer:
+      "Some of the best activities to do in Palembang are visiting the Ampera Bridge, exploring Kemaro Island, and taking a boat ride on the Musi River.",
+  },
+];
+
 function FAQ() {
   return (
     <div className="my-32 relative mx-auto w-4/5">
@@ -15,81 +43,33 @@ function FAQ() {
         </h1>
       </div>
 
-      <div data-aos="fade" className="flex my-10 justify-between items-center">
-        <div>
+      <div
+        data-aos="fade"
+        className="flex gap-5 my-10 justify-between items-center"
+      >
+        <div className="flex-1">
           <Accordion type="single" collapsible className="w-full">
-            <AccordionItem value="item-1">
-              <AccordionTrigger>
-                <h1 className="text-xl text-left mt-10">
-                  What is the capital of Indonesia?
-                </h1>
-              </AccordionTrigger>
-              <AccordionContent>
-                <p
-                  style={{
-                    fontFamily: "Avenir",
-                  }}
-                  className="text"
-                >
-                  The capital of Indonesia is Jakarta.
-                </p>
-              </AccordionContent>
-            </AccordionItem>
-            <AccordionItem value="item-2">
-              <AccordionTrigger>
-                <h1 className="text-xl text-left mt-10">
-                  What is the population of Indonesia?
-                </h1>
-              </AccordionTrigger>
-              <AccordionContent>
-                <p
-                  style={{
-                    fontFamily: "Avenir",
-                  }}
-                  className="text"
-                >
-                  The population of Indonesia is 270 million.
-                </p>
-              </AccordionContent>
-            </AccordionItem>
-            <AccordionItem value="item-3">
-              <AccordionTrigger>
-                <h1 className="text-xl text-left mt-10">
-                  What is the currency of Indonesia?
-                </h1>
-              </AccordionTrigger>
-              <AccordionContent>
-                <p
-                  style={{
-                    fontFamily: "Avenir",
-                  }}
-                  className="text"
-                >
-                  The currency of Indonesia is the Indonesian Rupiah.
-                </p>
-              </AccordionContent>
-            </AccordionItem>
-            <AccordionItem value="item-4">
-              <AccordionTrigger>
-                <h1 className="text-xl  text-left mt-10">
-                  What is the official language of Indonesia?
-                </h1>
-              </AccordionTrigger>
-              <AccordionContent>
-                <p
-                  style={{
-                    fontFamily: "Avenir",
-                  }}
-                  className="text"
-                >
-                  The official language of Indonesia is Bahasa Indonesia.
-                </p>
-              </AccordionContent>
-            </AccordionItem>
+            {QuestionAnswer.map((qa, index) => (
+              <AccordionItem key={index + 1} value={`item-${index + 1}`}>
+                <AccordionTrigger>
+                  <h1 className="text-xl text-left mt-10">{qa.question}</h1>
+                </AccordionTrigger>
+                <AccordionContent>
+                  <p
+                    style={{
+                      fontFamily: "Avenir",
+                    }}
+                    className="text w-[35rem] mt-5 text-left"
+                  >
+                    {qa.answer}
+                  </p>
+                </AccordionContent>
+              </AccordionItem>
+            ))}
           </Accordion>
         </div>
-        <div>
-          <img src="/indonesia.jpg" alt="" className="w-[40rem]" />
+        <div className="flex-1">
+          <img src="/indonesia.jpg" alt="" className="w-full rounded-lg" />
         </div>
       </div>
     </div>
