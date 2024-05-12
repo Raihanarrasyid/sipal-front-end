@@ -10,12 +10,12 @@ import {
 const blog = [
   {
     image: "/bkb.png",
-    title: "The Oldest Fort in Palembang",
+    title: "Benteng Kuto Besak",
     summary:
       "Benteng Kuto Besak is a historical fort in Palembang, South Sumatra, Indonesia. It was built in 1780 by the Dutch East India Company (VOC) during the colonial period. The fort is located on the banks of the Musi River and is one of the oldest buildings in Palembang. It is a popular tourist attraction and is a must-visit for history buffs and architecture enthusiasts.",
   },
   {
-    image: "/ki.jpg",
+    image: "/amanzi.jpg",
     title: "Kambang Iwak Park",
     summary:
       "Kambang Iwak Park is a popular tourist destination in Palembang, South Sumatra, Indonesia. The park is located on the banks of the Musi River and is a great place to relax and enjoy the natural beauty of the area. The park is home to a variety of plants and animals, and is a popular spot for picnics and family outings. Visitors can also enjoy boat rides on the river and take in the stunning views of the city skyline.",
