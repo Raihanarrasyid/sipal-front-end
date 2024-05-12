@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import {
   Carousel,
   CarouselContent,
@@ -6,6 +6,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+import axios from "axios";
 
 const blog = [
   {
@@ -41,7 +42,29 @@ const blog = [
 ];
 
 function Blog() {
-  return (
+  const [blogs, setBlogs] = useState([]);
+  const [loading, setLoading] = useState(true);
+  useEffect(() => {
+    const fetchData = async () => {
+      axios
+        .get("http://localhost:8080/api/blog")
+        .then((response) => {
+          setBlogs(response.data.data);
+          setLoading(false);
+        })
+        .catch((error) => {
+          console.log(error);
+        });
+    };
+    try {
+      fetchData();
+    } catch (error) {
+      setBlogs(blog);
+    }
+  }, []);
+  return loading && blogs != null ? (
+    <div>loading</div>
+  ) : (
     <>
       <div
         style={{
@@ -58,7 +81,7 @@ function Blog() {
         <div className="my-20" data-aos="fade">
           <Carousel>
             <CarouselContent>
-              {blog.map((item, index) => (
+              {blogs.map((item, index) => (
                 <CarouselItem key={index + 1} className="basis-1/3">
                   <div className="flex flex-col items-center">
                     <img
