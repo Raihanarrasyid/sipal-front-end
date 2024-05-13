@@ -7,7 +7,7 @@ const destination = [
     title: "The Oldest Fort in Palembang",
   },
   {
-    image: "/ki.jpg",
+    image: "/amanzi.jpg",
     title: "Kambang Iwak Park",
   },
   {
